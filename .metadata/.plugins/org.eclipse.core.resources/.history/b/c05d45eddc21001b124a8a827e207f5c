@@ -1,0 +1,73 @@
+package ejercicio2;
+
+import java.util.Scanner;
+
+public class Alumno {
+
+	int prog, marcas, sistemas;
+	
+	
+	//El Constructor no recibe un int para programacion porque como lo voy a randomizar dentro pues no lo veo necesario.
+	public Alumno(int marcas,int sistemas) {
+		
+		this.prog =(int) (Math.random()*11);
+		this.marcas=(int) (Math.random()*11);
+		this.sistemas=sistemas;
+		
+	}
+	
+	
+	public void mostrar() {
+		
+		System.out.print("P: ");
+		if(prog==20)
+			System.out.print("No Calificado");
+		else
+			System.out.print(prog);
+		
+		System.out.print(" SI: ");
+		if(sistemas==20)
+			System.out.print("No Calificado");
+		else
+			System.out.print(sistemas);
+		
+		System.out.print(" LM: ");
+		if(marcas==20)
+			System.out.print("No Calificado");
+		else
+			System.out.print(marcas);
+		
+		System.out.println();
+	}
+	
+	
+	
+	public static void main(String[] args) {
+
+		int aux;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//Asumo que se mete un número entero.
+		System.out.println("Escriba la nota de Lenguaje de Marcas: ");
+		aux = sc.nextInt();
+		Alumno al1 = new Alumno(aux,20);
+		al1.mostrar();
+		
+		System.out.println("Escriba la nota de Lenguaje de Marcas: ");
+		aux = sc.nextInt();
+		Alumno al2 = new Alumno(aux,20);
+		al2.mostrar();
+		
+		System.out.println("Escriba la nota de Lenguaje de Marcas: ");
+		aux = sc.nextInt();
+		Alumno al3 = new Alumno(aux,20);
+		al3.mostrar();
+		
+		System.out.println("Escriba la nota de Lenguaje de Marcas: ");
+		aux = sc.nextInt();
+		Alumno al4 = new Alumno(aux,20);
+		al4.mostrar();
+	}
+
+}
