@@ -1,0 +1,2 @@
+Uuid Unique user identification, se utiliza para identificar un disco duro en
+linux independientemente de en que puerto se conecte.

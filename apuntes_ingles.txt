@@ -1,0 +1,30 @@
+CPU: The CPU is the Central Processing Unit, is the hardware in charge 
+of controling what operations the computer does.
+
+Commands: Commands are pre-made instructions that the user can use to 
+comunicate with the Operative System of the computer.
+
+Hardware: Is the physicals componentes of the computer, all the software run in some form
+of hardware. 
+
+Software: The software is the instructions and the programms or apps that 
+runs in the computer.
+
+Operating system: Is a type of software that controls how the other programms
+comunicate with the CPU and distribute how much computer resources a task is
+given.
+
+Circuits: THe physicall elements which allows to establish communication between
+th parts of the computer through electrical signals.
+
+Open Source OS: An open source OS is an OS that any person can use and modificate
+in whatever maner they like making their own version of the OS.
+
+Peripheral: Is an external device that is use for the user to comunicate with
+the computer.
+
+Motherboard: The motherboard is the component were the cpu is allocated, it also
+serve as a nexus between other components such as the power charge, the graphics
+card, the memory ram or the hard drive.
+
+Hard Drive: The hard drive is the storage unit were all the data is saved.
